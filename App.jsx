@@ -1,10 +1,10 @@
 import React from "react";
-import State from "./components/State";
-
+import RegistrationForm from "./components/RegistrationForm";
 function App() {
   return (
     <div>
-      <State />
+      <h1>Student Registration System</h1>
+      <RegistrationForm />
     </div>
   );
 }
